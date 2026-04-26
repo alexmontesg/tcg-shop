@@ -1,10 +1,11 @@
 import { Button } from "@radix-ui/themes";
+import createListing from "@/app/sell/actions/createListing";
 
 export default async function Page() {
   return (
     <div className="max-w-md mx-auto py-8">
       <h1 className="text-2xl mb-6">Sell a Card</h1>
-      <form className="space-y-4" method="POST">
+      <form className="space-y-4" action={createListing}>
         <label className="block">
           <span className="block text-sm font-medium mb-1">Card</span>
           <input
@@ -19,7 +20,7 @@ export default async function Page() {
         <label className="block">
           <span className="block text-sm font-medium mb-1">Game</span>
           <select
-            name="condition"
+            name="game"
             required
             className="w-full border p-2 rounded"
             defaultValue=""
