@@ -19,7 +19,8 @@ npm run lint   # ESLint only
 ## Project Structure
 
 - `app/` — Next.js App Router pages and layouts
-- `features/` — Domain code (e.g., `features/cards/`)
+- `features/` — Domain code (`features/cards/`, `features/listings/`)
+- `shared/` — Shared utilities and routes
 - No tests configured yet
 
 ## Tech Stack
@@ -36,3 +37,4 @@ Run `npm run lint` before `npm run build` to catch issues early.
 ## Skills
 
 - `.agents/skills/git-commit/` — Conventional commit message helper
+- `.agents/skills/vercel-react-best-practices/` — React/Next.js performance optimization
