@@ -21,7 +21,8 @@
     "paths": {
       "@/*": ["./*"],
       "@cards/*": ["./features/cards/*"],
-      "@listings/*": ["./features/listings/*"]
+      "@listings/*": ["./features/listings/*"],
+      "@utils/*": ["./shared/utils/*"]
     }
   },
   "include": [
