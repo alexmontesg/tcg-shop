@@ -7,8 +7,8 @@ export default function ListingsSkeleton() {
       width={992}
       height={600}
       viewBox="0 0 500 350"
-      backgroundColor="#2a2a2a"
-      foregroundColor="#444"
+      backgroundColor="#cecece"
+      foregroundColor="#646464"
     >
       {Array.from({ length: 4 }).flatMap((_, idx) => {
         const margin = 50;
