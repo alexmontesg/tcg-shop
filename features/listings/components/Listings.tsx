@@ -6,7 +6,7 @@ export default async function ListingssPage() {
   const listings = await getListings();
 
   return (
-    <Grid columns="2" gap="5">
+    <Grid columns={{ initial: "1", md: "2" }} gap="5">
       {listings.map((listing) => (
         <Listing {...listing} key={listing.id} />
       ))}

@@ -17,27 +17,25 @@ export default function Listing(props: Listing) {
 
   return (
     <Card>
-      <Grid columns="3fr 2fr" gap="3">
+      <Grid columns={{ initial: "1fr", md: "3fr 2fr" }} gap="3">
         <Box gridColumn="1 / -1">
           <h2 className="text-xl">{name}</h2>
           <h3 className="text-l italic">{expansionName}</h3>
         </Box>
-        <aside>
+        <aside className="row-span-2">
           <Image src={imageUrl} alt={name} width={157} height={220} />
         </aside>
-        <div>
-          <dl>
-            <dt className="font-semibold">Seller</dt>
-            <dd>{props.seller}</dd>
-            <dt className="font-semibold">Price</dt>
-            <dd>{formatPrice(props.price)}</dd>
-          </dl>
-          <Link href={getRoute(ROUTE_NAMES.card, { id: props.card.id })}>
-            <Button>
-              Go to card <ThickChevronRightIcon />
-            </Button>
-          </Link>
-        </div>
+        <dl>
+          <dt className="font-semibold">Seller</dt>
+          <dd>{props.seller}</dd>
+          <dt className="font-semibold">Price</dt>
+          <dd>{formatPrice(props.price)}</dd>
+        </dl>
+        <Link href={getRoute(ROUTE_NAMES.card, { id: props.card.id })}>
+          <Button size={{ initial: "4", md: "2" }}>
+            Go to card <ThickChevronRightIcon />
+          </Button>
+        </Link>
       </Grid>
     </Card>
   );
