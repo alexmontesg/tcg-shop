@@ -1,8 +1,16 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import type { Listing } from "@listings/types";
+import {
+  Box,
+  Button,
+  Card,
+  Grid,
+  ThickChevronRightIcon,
+} from "@radix-ui/themes";
+
 import { formatPrice } from "@/shared/utils/price";
-import { Box, Card, Grid } from "@radix-ui/themes";
+import { getRoute, ROUTE_NAMES } from "@/shared/routes/routes";
 
 export default function Listing(props: Listing) {
   const { name, expansionName, imageUrl } = props.card;
@@ -17,12 +25,19 @@ export default function Listing(props: Listing) {
         <aside>
           <Image src={imageUrl} alt={name} width={157} height={220} />
         </aside>
-        <dl>
-          <dt className="font-semibold">Seller</dt>
-          <dd>{props.seller}</dd>
-          <dt className="font-semibold">Price</dt>
-          <dd>{formatPrice(props.price)}</dd>
-        </dl>
+        <div>
+          <dl>
+            <dt className="font-semibold">Seller</dt>
+            <dd>{props.seller}</dd>
+            <dt className="font-semibold">Price</dt>
+            <dd>{formatPrice(props.price)}</dd>
+          </dl>
+          <Link href={getRoute(ROUTE_NAMES.card, { id: props.card.id })}>
+            <Button>
+              Go to card <ThickChevronRightIcon />
+            </Button>
+          </Link>
+        </div>
       </Grid>
     </Card>
   );
