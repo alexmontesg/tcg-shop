@@ -1,9 +1,11 @@
 import Image from "next/image";
+import { Grid } from "@radix-ui/themes";
+
 import type { Card } from "@cards/types";
 
 export default function Card(props: Card) {
   return (
-    <article className="grid grid-cols-[2fr_3fr] my-5 mx-5 gap-5">
+    <Grid columns="3fr 2fr" gap="3">
       <header className="col-span-full">
         <h2 className="text-xl">{props.name}</h2>
         <h3 className="text-l italic">{props.game}</h3>
@@ -20,6 +22,6 @@ export default function Card(props: Card) {
         </dl>
       </div>
       <footer className="col-span-full">{props.description}</footer>
-    </article>
+    </Grid>
   );
 }
