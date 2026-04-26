@@ -1,14 +1,13 @@
-import Listing from "@listings/components/Listing";
-import { getListings } from "@listings/services/listings";
+import ListingsSkeleton from "@/features/listings/components/skeletons/Listings";
+import Listings from "@listings/components/Listings";
+import { Suspense } from "react";
 
-export default async function CardsPage() {
-  const listings = await getListings();
-
+export default async function Page() {
   return (
-    <div className="grid grid-cols-2 gap-4">
-      {listings.map((listing) => (
-        <Listing {...listing} key={listing.id} />
-      ))}
-    </div>
+    <main>
+      <Suspense fallback={<ListingsSkeleton />}>
+        <Listings />
+      </Suspense>
+    </main>
   );
 }
