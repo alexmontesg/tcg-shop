@@ -1,5 +1,6 @@
 [
   {
+    "id": "crd_001",
     "name": "Pikachu",
     "game": "Pokémon TCG",
     "expansionName": "Base Set",
@@ -8,6 +9,7 @@
     "description": "A cheerful Electric-type Pokémon that stores electricity in its cheeks."
   },
   {
+    "id": "crd_002",
     "name": "Charizard",
     "game": "Pokémon TCG",
     "expansionName": "Base Set",
@@ -16,6 +18,7 @@
     "description": "A fierce Fire/Flying-type Pokémon known for its powerful flame breath."
   },
   {
+    "id": "crd_003",
     "name": "Bulbasaur",
     "game": "Pokémon TCG",
     "expansionName": "Jungle",
@@ -24,6 +27,7 @@
     "description": "A Grass/Poison-type Pokémon that carries a plant bulb on its back."
   },
   {
+    "id": "crd_004",
     "name": "Squirtle",
     "game": "Pokémon TCG",
     "expansionName": "Team Rocket",
@@ -32,6 +36,7 @@
     "description": "A Water-type Pokémon that sprays water from its mouth with great force."
   },
   {
+    "id": "crd_005",
     "name": "Mewtwo",
     "game": "Pokémon TCG",
     "expansionName": "Fossil",
@@ -40,6 +45,7 @@
     "description": "A powerful Psychic-type Pokémon created through genetic manipulation."
   },
   {
+    "id": "crd_006",
     "name": "Eevee",
     "game": "Pokémon TCG",
     "expansionName": "Neo Discovery",
@@ -48,6 +54,7 @@
     "description": "A Normal-type Pokémon known for its ability to evolve into many forms."
   },
   {
+    "id": "crd_007",
     "name": "Snorlax",
     "game": "Pokémon TCG",
     "expansionName": "Jungle",
@@ -56,6 +63,7 @@
     "description": "A massive Pokémon that spends most of its time sleeping and eating."
   },
   {
+    "id": "crd_008",
     "name": "Gengar",
     "game": "Pokémon TCG",
     "expansionName": "Fossil",
@@ -64,6 +72,7 @@
     "description": "A Ghost/Poison-type Pokémon that lurks in the shadows to scare prey."
   },
   {
+    "id": "crd_009",
     "name": "Dragonite",
     "game": "Pokémon TCG",
     "expansionName": "Fossil",
@@ -72,6 +81,7 @@
     "description": "A Dragon/Flying-type Pokémon known for its kindness and strength."
   },
   {
+    "id": "crd_010",
     "name": "Lucario",
     "game": "Pokémon TCG",
     "expansionName": "Diamond & Pearl",

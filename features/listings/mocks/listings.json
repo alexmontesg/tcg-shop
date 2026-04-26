@@ -2,6 +2,7 @@
   {
     "id": "lst_001",
     "card": {
+      "id": "crd_001",
       "name": "Pikachu",
       "game": "Pokémon TCG",
       "expansionName": "Base Set",
@@ -19,6 +20,7 @@
   {
     "id": "lst_002",
     "card": {
+      "id": "crd_002",
       "name": "Charizard",
       "game": "Pokémon TCG",
       "expansionName": "Base Set",
@@ -36,6 +38,7 @@
   {
     "id": "lst_003",
     "card": {
+      "id": "crd_003",
       "name": "Bulbasaur",
       "game": "Pokémon TCG",
       "expansionName": "Jungle",
@@ -53,6 +56,7 @@
   {
     "id": "lst_004",
     "card": {
+      "id": "crd_004",
       "name": "Squirtle",
       "game": "Pokémon TCG",
       "expansionName": "Base Set",
@@ -70,6 +74,7 @@
   {
     "id": "lst_005",
     "card": {
+      "id": "crd_005",
       "name": "Eevee",
       "game": "Pokémon TCG",
       "expansionName": "Neo Discovery",
@@ -87,6 +92,7 @@
   {
     "id": "lst_006",
     "card": {
+      "id": "crd_006",
       "name": "Gengar",
       "game": "Pokémon TCG",
       "expansionName": "Fossil",
@@ -104,6 +110,7 @@
   {
     "id": "lst_007",
     "card": {
+      "id": "crd_007",
       "name": "Snorlax",
       "game": "Pokémon TCG",
       "expansionName": "Jungle",
@@ -121,6 +128,7 @@
   {
     "id": "lst_008",
     "card": {
+      "id": "crd_008",
       "name": "Mewtwo",
       "game": "Pokémon TCG",
       "expansionName": "Fossil",
@@ -138,6 +146,7 @@
   {
     "id": "lst_009",
     "card": {
+      "id": "crd_009",
       "name": "Dragonite",
       "game": "Pokémon TCG",
       "expansionName": "Fossil",
@@ -155,6 +164,7 @@
   {
     "id": "lst_010",
     "card": {
+      "id": "crd_010",
       "name": "Lucario",
       "game": "Pokémon TCG",
       "expansionName": "Diamond & Pearl",
