@@ -1,0 +1,172 @@
+[
+  {
+    "id": "lst_001",
+    "card": {
+      "name": "Pikachu",
+      "game": "Pokémon TCG",
+      "expansionName": "Base Set",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Ken Sugimori",
+      "description": "Electric-type Pokémon known for storing electricity in its cheeks."
+    },
+    "condition": "Near Mint",
+    "seller": "CardVaultEU",
+    "price": {
+      "amount": 12.99,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_002",
+    "card": {
+      "name": "Charizard",
+      "game": "Pokémon TCG",
+      "expansionName": "Base Set",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Mitsuhiro Arita",
+      "description": "A powerful Fire/Flying-type Pokémon with intense flame attacks."
+    },
+    "condition": "Lightly Played",
+    "seller": "DragonCards",
+    "price": {
+      "amount": 249.99,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_003",
+    "card": {
+      "name": "Bulbasaur",
+      "game": "Pokémon TCG",
+      "expansionName": "Jungle",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Ken Sugimori",
+      "description": "Grass/Poison-type Pokémon with a plant bulb on its back."
+    },
+    "condition": "Near Mint",
+    "seller": "PokeMarket",
+    "price": {
+      "amount": 6.5,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_004",
+    "card": {
+      "name": "Squirtle",
+      "game": "Pokémon TCG",
+      "expansionName": "Base Set",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Kagemaru Himeno",
+      "description": "Water-type Pokémon that attacks with high-pressure water jets."
+    },
+    "condition": "Excellent",
+    "seller": "OceanCards",
+    "price": {
+      "amount": 8.25,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_005",
+    "card": {
+      "name": "Eevee",
+      "game": "Pokémon TCG",
+      "expansionName": "Neo Discovery",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Naoyo Kimura",
+      "description": "A versatile Pokémon capable of evolving into many forms."
+    },
+    "condition": "Near Mint",
+    "seller": "EvolutionHub",
+    "price": {
+      "amount": 15.0,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_006",
+    "card": {
+      "name": "Gengar",
+      "game": "Pokémon TCG",
+      "expansionName": "Fossil",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Mitsuhiro Arita",
+      "description": "Ghost/Poison-type Pokémon that hides in shadows to scare enemies."
+    },
+    "condition": "Played",
+    "seller": "ShadowTCG",
+    "price": {
+      "amount": 18.75,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_007",
+    "card": {
+      "name": "Snorlax",
+      "game": "Pokémon TCG",
+      "expansionName": "Jungle",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Ken Sugimori",
+      "description": "A massive Pokémon that spends most of its time sleeping."
+    },
+    "condition": "Near Mint",
+    "seller": "BigSleeperCards",
+    "price": {
+      "amount": 22.0,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_008",
+    "card": {
+      "name": "Mewtwo",
+      "game": "Pokémon TCG",
+      "expansionName": "Fossil",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Ken Sugimori",
+      "description": "A genetically engineered Psychic-type Pokémon with immense power."
+    },
+    "condition": "Lightly Played",
+    "seller": "PsychicVault",
+    "price": {
+      "amount": 89.99,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_009",
+    "card": {
+      "name": "Dragonite",
+      "game": "Pokémon TCG",
+      "expansionName": "Fossil",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Ken Sugimori",
+      "description": "A kind Dragon-type Pokémon capable of flying across the world."
+    },
+    "condition": "Near Mint",
+    "seller": "SkyHighCards",
+    "price": {
+      "amount": 45.5,
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "lst_010",
+    "card": {
+      "name": "Lucario",
+      "game": "Pokémon TCG",
+      "expansionName": "Diamond & Pearl",
+      "imageUrl": "https://placehold.co/157x220.jpg",
+      "artist": "Masakazu Fukuda",
+      "description": "A Fighting/Steel-type Pokémon that can sense aura energy."
+    },
+    "condition": "Excellent",
+    "seller": "AuraMarket",
+    "price": {
+      "amount": 32.0,
+      "currency": "EUR"
+    }
+  }
+]
