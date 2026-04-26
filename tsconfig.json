@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@cards/*": ["./features/cards/*"],
+      "@listings/*": ["./features/listings/*"]
     }
   },
   "include": [

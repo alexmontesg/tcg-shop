@@ -1,5 +1,5 @@
-import Card from "@/features/cards/components/Card";
-import { getCards } from "@/features/cards/services/cards";
+import Card from "@cards/components/Card";
+import { getCards } from "@cards/services/cards";
 
 export default async function CardsPage() {
   const cards = await getCards();

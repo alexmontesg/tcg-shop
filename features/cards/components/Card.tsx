@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { Card } from "@/features/cards/types";
+import type { Card } from "@cards/types";
 
 export default function Card(props: Card) {
   return (
