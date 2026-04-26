@@ -2,7 +2,7 @@
   {
     "name": "Pikachu",
     "game": "Pokémon TCG",
-    "setName": "Base Set",
+    "expansionName": "Base Set",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Ken Sugimori",
     "description": "A cheerful Electric-type Pokémon that stores electricity in its cheeks."
@@ -10,7 +10,7 @@
   {
     "name": "Charizard",
     "game": "Pokémon TCG",
-    "setName": "Base Set",
+    "expansionName": "Base Set",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Mitsuhiro Arita",
     "description": "A fierce Fire/Flying-type Pokémon known for its powerful flame breath."
@@ -18,7 +18,7 @@
   {
     "name": "Bulbasaur",
     "game": "Pokémon TCG",
-    "setName": "Jungle",
+    "expansionName": "Jungle",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Ken Sugimori",
     "description": "A Grass/Poison-type Pokémon that carries a plant bulb on its back."
@@ -26,7 +26,7 @@
   {
     "name": "Squirtle",
     "game": "Pokémon TCG",
-    "setName": "Team Rocket",
+    "expansionName": "Team Rocket",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Kagemaru Himeno",
     "description": "A Water-type Pokémon that sprays water from its mouth with great force."
@@ -34,7 +34,7 @@
   {
     "name": "Mewtwo",
     "game": "Pokémon TCG",
-    "setName": "Fossil",
+    "expansionName": "Fossil",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Ken Sugimori",
     "description": "A powerful Psychic-type Pokémon created through genetic manipulation."
@@ -42,7 +42,7 @@
   {
     "name": "Eevee",
     "game": "Pokémon TCG",
-    "setName": "Neo Discovery",
+    "expansionName": "Neo Discovery",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Naoyo Kimura",
     "description": "A Normal-type Pokémon known for its ability to evolve into many forms."
@@ -50,7 +50,7 @@
   {
     "name": "Snorlax",
     "game": "Pokémon TCG",
-    "setName": "Jungle",
+    "expansionName": "Jungle",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Ken Sugimori",
     "description": "A massive Pokémon that spends most of its time sleeping and eating."
@@ -58,7 +58,7 @@
   {
     "name": "Gengar",
     "game": "Pokémon TCG",
-    "setName": "Fossil",
+    "expansionName": "Fossil",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Mitsuhiro Arita",
     "description": "A Ghost/Poison-type Pokémon that lurks in the shadows to scare prey."
@@ -66,7 +66,7 @@
   {
     "name": "Dragonite",
     "game": "Pokémon TCG",
-    "setName": "Fossil",
+    "expansionName": "Fossil",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Ken Sugimori",
     "description": "A Dragon/Flying-type Pokémon known for its kindness and strength."
@@ -74,7 +74,7 @@
   {
     "name": "Lucario",
     "game": "Pokémon TCG",
-    "setName": "Diamond & Pearl",
+    "expansionName": "Diamond & Pearl",
     "imageUrl": "https://placehold.co/157x220.jpg",
     "artist": "Masakazu Fukuda",
     "description": "A Fighting/Steel-type Pokémon that can sense and manipulate aura."
