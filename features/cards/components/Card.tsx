@@ -1,15 +1,7 @@
 import Image from "next/image";
+import type { Card } from "@cards/types";
 
-type CardProps = {
-  name: string;
-  game: string;
-  setName: string;
-  imageUrl: string;
-  artist: string;
-  description: string;
-};
-
-export default function Card(props: CardProps) {
+export default function Card(props: Card) {
   return (
     <article className="grid grid-cols-[2fr_3fr] my-5 mx-5 gap-5">
       <header className="col-span-full">
@@ -22,7 +14,7 @@ export default function Card(props: CardProps) {
       <div>
         <dl>
           <dt className="font-semibold">Set Name</dt>
-          <dd>{props.setName}</dd>
+          <dd>{props.expansionName}</dd>
           <dt className="font-semibold">Artist</dt>
           <dd>{props.artist}</dd>
         </dl>
